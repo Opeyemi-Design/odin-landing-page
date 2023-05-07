@@ -1,1 +1,1 @@
-# odin-landing-page
+Get more understanding of css by completing the odin project's landing page assignment
