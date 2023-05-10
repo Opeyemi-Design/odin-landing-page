@@ -1,1 +1,1 @@
-Get more understanding of css by completing the odin project's landing page assignment
+By the end of this project I will have more understanding of css
