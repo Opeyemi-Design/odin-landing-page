@@ -8,23 +8,6 @@ body {
     margin: 0px;
 }
 
-.logo {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2.5rem;
-}
-
-.nav-links {
-    font-family: 'Bebas Neue', sans-serif;
-    list-style: none;
-    padding: 0;
-    letter-spacing: 1px;
-}
-
-img {
-    max-width: 500px;
-    border-radius: 10px;
-}
-
 .above-the-fold {
     color: #F9FAF8;
     background-color: #1F2937;
@@ -39,20 +22,27 @@ header {
     margin-bottom: 6rem;
 }
 
+.logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+}
+
 .nav-links {
+    font-family: 'Bebas Neue', sans-serif;
+    list-style: none;
+    letter-spacing: 1px;
     display: flex;
     gap: 1rem;
-    color: #E5E7EB;
 }
 
 .atf-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 8rem;
 }
 
 .text-and-button {
-    max-width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -64,11 +54,6 @@ h1 {
     margin: 0px;
 }
 
-.information {
-    background-color: #E5E7EB;
-    padding: 1rem 16rem 1rem 16rem;
-}
-
 button {
     align-self: flex-start;
     background-color: #3882F6;
@@ -76,4 +61,13 @@ button {
     padding: 12px 40px;
     border-radius: 8px;
     border: none;
+}
+
+img {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.information {
+    padding: 1rem 16rem 1rem 16rem;
 }
