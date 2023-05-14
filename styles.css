@@ -55,11 +55,14 @@ h1 {
 }
 
 button {
-    align-self: flex-start;
-    background-color: #3882F6;
     color: #F9FAF8;
     padding: 12px 40px;
-    border-radius: 8px;
+    border-radius: 8px; 
+}
+
+.cta-button-primary {
+    align-self: flex-start;
+    background-color: #3882F6;
     border: none;
 }
 
@@ -69,7 +72,7 @@ img {
 }
 
 .information {
-    padding: 1rem 16rem 4rem 16rem;
+    padding: 1rem 20rem 4rem 20rem;
 }
 
 h2 {
@@ -97,7 +100,7 @@ h2 {
 
 .quote {
     background-color: #d9dadd;
-    padding: 6rem 22rem 6rem 22rem;
+    padding: 7rem 22rem 7rem 22rem;
     display: flex;
     flex-direction: column;
 }
@@ -106,9 +109,49 @@ h2 {
     font-style: italic;
     font-weight: 200;
     font-size: 1.3rem;
+    margin: 0;
 }
 
 .author {
     align-self: flex-end;
     font-weight: bold;
+    margin: 0;
+}
+
+.cta-section {
+   padding: 4rem 16rem; 
+}
+
+.cta-container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 3rem 7rem;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cta-primary {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+.cta-secondary {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.cta-button-secondary {
+    border: 2px solid #F9FAF8;
+    background: transparent;
+    align-self: center;
 }
